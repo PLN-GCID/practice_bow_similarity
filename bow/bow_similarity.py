@@ -20,7 +20,7 @@ import docx
 import torch
 import torch.nn.functional as F
 
-DOCS_DIR = Path(__file__).parent
+DOCS_DIR = Path(__file__).parent.parent / "data"
 
 # Stopwords en espanol (lista compacta, sin dependencias externas tipo nltk)
 STOPWORDS = {
